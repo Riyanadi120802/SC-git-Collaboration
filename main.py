@@ -4,7 +4,7 @@ def main():
     data3 = int(input("Masukkan inputan 3 : "))
 
 
-    print("{}{}{}", format(data1, data2, data3))
+    print("{}{}{}".format(data1, data2, data3))
 
 if __name__ == "__main__":
     print("Hello main!")
